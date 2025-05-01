@@ -1,6 +1,6 @@
 appdirs==1.4.4
 asyncio==3.4.3
-beautifulsoup4==4.9.3        # Downgraded to match jugaad-data requirement
+beautifulsoup4==4.9.3
 blinker==1.9.0
 certifi==2025.1.31
 chardet==4.0.0
@@ -30,7 +30,7 @@ platformdirs==4.3.7
 python-dateutil==2.9.0.post0
 python-dotenv==1.1.0
 pytz==2025.2
-requests==2.32.3
+requests==2.25.1          # ✅ FIXED for fyers-apiv2 compatibility
 scipy==1.15.2
 six==1.17.0
 soupsieve==2.6
