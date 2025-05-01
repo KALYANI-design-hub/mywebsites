@@ -1,6 +1,5 @@
 appdirs==1.4.4
 asyncio==3.4.3
-beautifulsoup4==4.9.3
 blinker==1.9.0
 certifi==2025.1.31
 chardet==4.0.0
@@ -9,7 +8,7 @@ click==7.1.2
 colorama==0.4.6
 dateutils==0.6.12
 Flask==2.0.3
-frozendict==2.4.6
+frozenDict==2.4.6
 gunicorn==23.0.0
 idna==2.10
 itsdangerous==2.2.0
@@ -28,10 +27,10 @@ platformdirs==4.3.7
 python-dateutil==2.9.0.post0
 python-dotenv==1.1.0
 pytz==2025.2
-requests==2.31.0  # Updated version
+requests==2.31.0
 scipy==1.15.2
 six==1.17.0
-soupsieve==2.6
+soupsieve==2.6  # Ensure this is compatible with beautifulsoup4 if it's used elsewhere
 tornado==6.1
 typing_extensions==4.13.0
 tzdata==2025.2
@@ -40,4 +39,4 @@ waitress==3.0.2
 websocket-client==1.2.1
 websockets==8.1
 Werkzeug==2.0.3
-yfinance==0.2.55  # Ensure this version is compatible with requests>=2.31
+yfinance==0.2.55
