@@ -10,7 +10,6 @@ colorama==0.4.6
 dateutils==0.6.12
 Flask==2.0.3
 frozendict==2.4.6
-fyers-api==1.0.9
 fyers-apiv2==2.0.9
 gunicorn==23.0.0
 idna==2.10
@@ -30,7 +29,7 @@ platformdirs==4.3.7
 python-dateutil==2.9.0.post0
 python-dotenv==1.1.0
 pytz==2025.2
-requests==2.32.3
+requests==2.25.1
 scipy==1.15.2
 six==1.17.0
 soupsieve==2.6
